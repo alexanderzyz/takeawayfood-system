@@ -6,3 +6,5 @@ src（存放所有的头文件以及源文件，所有的经理，骑手，顾�
 3.只需要在Ubuntu系统中打开终端输入g++ -o start main.cpp custmoers.cpp riders.cpp manager.cpp即可编译，在输入./start即可运行。
 4.采用相对路径，可直接运行代码。该文件夹中不包含任何已建立的manager，custmoers，riders的txt文本信息，启动可执行文件后请先建立riders，否则无法配送成功，因为此时没有骑手！
 manager中也没有manager，可自己建立一个（在运行之后选择I am a manager输入姓名密码即可，会自动检测是注册还是登录）
+
+ps:文件中涉及到了文件的建立，请注意代码中文件建立的路径，事先创建必要的文件，然后正常运行程序。
